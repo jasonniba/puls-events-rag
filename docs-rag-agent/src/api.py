@@ -113,7 +113,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Puls-Events - API RAG",
+    title="Pulls-Events - API RAG",
     description=(
         "API REST de recommandations culturelles "
         "avec FAISS, LangChain et Mistral."

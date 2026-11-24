@@ -22,12 +22,12 @@ DEMO_MODE = os.getenv(
 
 
 st.set_page_config(
-    page_title="Puls-Events",
+    page_title="Pulls-Events",
     page_icon="🎭",
     layout="centered"
 )
 
-st.title("🎭 Puls-Events")
+st.title("🎭 Pulls-Events")
 st.subheader("Assistant culturel intelligent")
 
 st.write(
