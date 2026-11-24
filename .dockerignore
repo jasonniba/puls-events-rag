@@ -1,0 +1,15 @@
+
+.git/
+.venv/
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+
+docs-rag-agent/data/
+docs-rag-agent/tests/
+docs-rag-agent/*.ipynb
+docs-rag-agent/.pytest_cache/
+*.egg-info/

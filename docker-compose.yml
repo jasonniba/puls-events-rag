@@ -1,0 +1,16 @@
+
+services:
+  puls-events-api:
+    image: puls-events-rag:latest
+    container_name: puls-events-api
+
+    ports:
+      - "127.0.0.1:8001:8000"
+
+    env_file:
+      - .env.docker
+
+    volumes:
+      - ./docs-rag-agent/data:/app/data
+
+    restart: unless-stopped

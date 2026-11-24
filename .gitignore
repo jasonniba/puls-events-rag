@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.docker.example
+
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
+
+# Fichiers générés
+*.egg-info/
+build/
+dist/
+
+# Modèles et index générés
+docs-rag-agent/data/faiss_index/
+docs-rag-agent/data/faiss_index_backup/
+docs-rag-agent/data/processed/embeddings_local.npy
+
+# Fichiers de données volumineux
+docs-rag-agent/data/raw/*.csv
